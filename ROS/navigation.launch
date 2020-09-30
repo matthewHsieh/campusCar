@@ -1,0 +1,10 @@
+<launch>
+<node name="move_base" pkg="move_base" type="move_base" output="screen">
+		<param name="controller_frequency" value="5.0" />
+		<rosparam file="/home/pi/catkin_ws/src/conf/costmap_common_params.yaml" command="load" ns="global_costmap" />
+		<rosparam file="/home/pi/catkin_ws/src/conf/costmap_common_params.yaml" command="load" ns="local_costmap" />
+		<rosparam file="/home/pi/catkin_ws/src/conf/local_costmap_params.yaml" command="load" />
+		<rosparam file="/home/pi/catkin_ws/src/conf/global_costmap_params.yaml" command="load" />
+		<rosparam file="/home/pi/catkin_ws/src/conf/base_local_planner_params.yaml" command="load" />
+</node>
+</launch>

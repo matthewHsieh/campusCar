@@ -1,0 +1,28 @@
+1.選擇Ubuntu原因
+->Ubuntu與ROS系統相容性好
+->ROS版本跟隨Ubuntu作業系統
+
+2.選擇Ubuntu 16.04 LTS
+->16.04以上不支援Kinetic
+
+3.選擇Kinetic版本
+->可能新版本會有些package尚未移植的問題產生(官方建議)
+
+4.何謂ROS
+->負責機器人、車的各種元件進行溝通與操作的一個框架
+
+5.Ubuntu MATE 16.04 LTS for pi 3b+ download
+->非官方映像檔(某些功能不支援)
+->網址: https://www.dropbox.com/s/joi695auovhma2q/Ubuntu-mate%20rpi%203bplus.7z?dl=0
+
+6.ROS系統(Kinetic) installation
+->網址: http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+7.Ubuntu + ROS settings blog
+->網址: https://vocus.cc/article/5ed7aa37fd89780001520946
+#rosrun turtlesim turtlesim_teleop_key(f) -> rosrun turtlesim turtle_teleop_key(t)
+#export ROS_IP=Your_IP_Address
+#export ROS_MASTER_URI=http://Your_IP_Address:11311
+
+8.Hetcor installation + download
+->網址: https://www.itread01.com/content/1544101622.html
