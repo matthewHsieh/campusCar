@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+ [HKEY_CLASSES_ROOT\vnc]
+ @="URL:VNC Connection"
+ "URL Protocol"=""
+ [HKEY_CLASSES_ROOT\vnc\DefaultIcon]
+ @="C:\\WINDOWS\\System32\\mstsc.exe"
+ [HKEY_CLASSES_ROOT\vnc\shell]
+ [HKEY_CLASSES_ROOT\vnc\shell\open]
+ [HKEY_CLASSES_ROOT\vnc\shell\open\command]
+ @="wscript.exe C:\\WINDOWS\\vnc.js %1"

@@ -24,7 +24,7 @@
         foreach($filesTemp as $k=>$v){
 			if($count == 10)
 				break;
-			echo substr($v,0,-4);
+			echo $v;
 			echo ' : ';
             echo '<img widht=160 height=120 src="'.$folder.'/'.$v.'">';
 			echo '<br>';
